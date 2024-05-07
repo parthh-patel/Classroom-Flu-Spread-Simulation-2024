@@ -3,19 +3,15 @@
 
 **Simulations are conducted to model the spread of a flu outbreak in a classroom of 31 elementary school children. One student, Tommy, initially infected with the flu, interacts with the susceptible students over a period of three days. The probability of Tommy infecting a susceptible student on any given day is assumed to be 0.02. If a student gets infected, they become infectious for the next three days. The simulation aims to analyze the dynamics of the flu spread and its impact on the student population.**
 
-
 | <img src="img/no-infections.png" width="400"> | <img src="img/15day-pandemic.png" width="400"> |
 |:---:|:---:|
 | *An example of a pandemic evolution plot where Tommy does not infect anyone and the epidemic ends in just 3 days* | *An example of a pandemic evolution plot where Tommy infects other students and the infection spreads throughout the classroom* |
 
-
- 
 **Sample graph of a simulation:**
 
-| <img src="img/avg-infected-kids-per-day.png" width="800"> | <img src="img/avg-infected-kids-per-day-half-immune.png" width="450"> |
+| <img src="img/avg-infected-kids-per-day.png" width="450"> | <img src="img/avg-infected-kids-per-day-half-immune.png" width="450"> |
 |:---:|:---:|
 | *Average number of kids infected by day* | *Average number of kids infected by day when the population had a 50-50 chance of being immune at the start of the simulation*
-
 
 Below is a brief description of each file in this repo:
 
@@ -29,4 +25,6 @@ Below is a brief description of each file in this repo:
 
 - **plot_helper.py**: Contains all the plotting functions used to visualize histograms and evolution plots. It uses a combination of Bokeh and Matplotlib libraries to make visual representations of the simulation results.
 
-- **4 dst files**: These files are used in the Arena input analyzer and are not important for understanding the project. 
+- **img folder**: These images are from the final report and are used in the readme file. 
+
+- **dst folder**: These dst files are used in the Arena input analyzer and are not important for understanding the project. 
