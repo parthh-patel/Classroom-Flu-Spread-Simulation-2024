@@ -1,7 +1,23 @@
 # Classroom Flu Spread Simulation
 ### Georgia Tech - ISYE 6644 - Simulation | Parth Patel | 04/23/2024
 
-This repository contains the code and files for the Classroom Flu Spread Project. The project focuses on simulating an epidemic within a classroom setting and exploring the dynamics of disease transmission among children. Below is a brief description of each file:
+**Simulations are conducted to model the spread of a flu outbreak in a classroom of 31 elementary school children. One student, Tommy, initially infected with the flu, interacts with the susceptible students over a period of three days. The probability of Tommy infecting a susceptible student on any given day is assumed to be 0.02. If a student gets infected, they become infectious for the next three days. The simulation aims to analyze the dynamics of the flu spread and its impact on the student population.**
+
+
+| <img src="img/no-infections.png" width="400"> | <img src="img/15day-pandemic.png" width="400"> |
+|:---:|:---:|
+| *An example of a pandemic evolution plot where Tommy does not infect anyone and the epidemic ends in just 3 days* | *An example of a pandemic evolution plot where Tommy infects other students and the infection spreads throughout the classroom* |
+
+
+ 
+**Sample graph of a simulation:**
+
+| <img src="img/avg-infected-kids-per-day.png" width="800"> | <img src="img/avg-infected-kids-per-day-half-immune.png" width="450"> |
+|:---:|:---:|
+| *Average number of kids infected by day* | *Average number of kids infected by day when the population had a 50-50 chance of being immune at the start of the simulation*
+
+
+Below is a brief description of each file in this repo:
 
 - **Classrom Flu Spread Project.ipynb**: A Jupyter Notebook with a detailed walkthrough of the project. It includes the code and explanations necessary to understand the simulation. The notebook allows for different settings of the simulation to be explored and adjusted. Final results and conclusions are not explained and can be found in the final pdf report.
 
