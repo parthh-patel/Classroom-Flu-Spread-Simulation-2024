@@ -9,7 +9,7 @@
 
 **Sample graph of a simulation:**
 
-| <img src="img/avg-infected-kids-per-day.png" width="450"> | <img src="img/avg-infected-kids-per-day-half-immune.png" width="450"> |
+| <img src="img/avg-infected-kids-per-day.png" width="800"> | <img src="img/avg-infected-kids-per-day-half-immune.png" width="450"> |
 |:---:|:---:|
 | *Average number of kids infected by day* | *Average number of kids infected by day when the population had a 50-50 chance of being immune at the start of the simulation*
 
