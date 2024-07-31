@@ -1,7 +1,15 @@
 # Classroom Flu Spread Simulation
-### Georgia Tech - ISYE 6644 - Simulation | Parth Patel | 04/23/2024
 
-**Simulations are conducted to model the spread of a flu outbreak in a classroom of 31 elementary school children. One student, Tommy, initially infected with the flu, interacts with the susceptible students over a period of three days. The probability of Tommy infecting a susceptible student on any given day is assumed to be 0.02. If a student gets infected, they become infectious for the next three days. The simulation aims to analyze the dynamics of the flu spread and its impact on the student population.**
+**Simulations were conducted to model the spread of a flu outbreak in a classroom of 31 elementary school children. One student, Tommy, initially infected with the flu, interacts with the susceptible students over a period of three days. The probability of Tommy infecting a susceptible student on any given day is assumed to be 0.02. If a student gets infected, they become infectious for the next three days. The simulation aims to analyze the dynamics of the flu spread and its impact on the student population.**
+
+<div align="center">
+  
+| [Final Report](https://github.com/parthh-patel/Classroom-Flu-Spread-Simulation-2024/blob/main/Classroom%20Flu%20Spread%20Project%20-%20Final%20Report.pdf) | [Project Notebook](https://github.com/parthh-patel/Classroom-Flu-Spread-Simulation-2024/blob/main/Classroom%20Flu%20Spread%20Project.ipynb) ([Simulation Code](https://github.com/parthh-patel/Classroom-Flu-Spread-Simulation-2024/blob/main/sim_funcs.py) & [Plot Fucntions](https://github.com/parthh-patel/Classroom-Flu-Spread-Simulation-2024/blob/main/plot_helper.py))|
+|---|---|
+
+</div>
+
+___
 
 | <img src="img/no-infections.png" width="400"> | <img src="img/15day-pandemic.png" width="400"> |
 |:---:|:---:|
